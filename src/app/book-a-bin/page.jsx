@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header'
 import BookForm from '../../components/BookForm'
+import Footer from '../../components/footer'
 
 export default function BookABinPage() {
   return (
@@ -18,14 +19,11 @@ export default function BookABinPage() {
       <section className="bg-white">
         <div className="max-w-screen-xl mx-auto px-5 py-8">
           <div className="grid md:grid-cols-2 gap-6 items-stretch">
-            <div className="rounded-2xl bg-slate-100 overflow-hidden min-h-52 md:min-h-60 lg:min-h-72 flex items-center justify-center">
-              <img src="/bookBin.jpg" alt="Call to book" className="h-full w-full object-cover" />
-            </div>
+           
 
-            <div className="rounded-2xl bg-green-700 text-white p-8 md:p-10 flex items-center justify-center text-center shadow-[0_30px_60px_-15px_rgba(0,0,0,0.35)]">
-              <div className="max-w-xl">
-                <h2 className="text-2xl md:text-4xl font-extrabold">Call now for bookings: 75878878786</h2>
-              </div>
+            <div className="rounded-2xl bg-green-700 text-white p-8 md:p-10 flex text-center shadow-[0_30px_60px_-15px_rgba(0,0,0,0.35)]">
+   
+                <h2 className="text-2xl md:text-4xl font-extrabold">Call now for bookings: +61 405 838 119</h2>
             </div>
           </div>
 
@@ -38,6 +36,7 @@ export default function BookABinPage() {
       </section>
 
       <BookForm />
+      <Footer />
     </main>
   )
 }

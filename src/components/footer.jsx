@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="bg-[#022c22] text-gray-300 pt-16 pb-8 relative rounded-t-2xl">
-      <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-10">
+      <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-10 ">
         
 
         
@@ -14,9 +14,8 @@ export default function Footer() {
             About Us
           </h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-white">About Us</a></li>
-            <li><a href="#" className="hover:text-white">Careers</a></li>
-            <li><a href="#" className="hover:text-white">Contact Us</a></li>
+            <li><a href="/About-us" className="hover:text-white">About Us</a></li>
+           
           </ul>
         </div>
 
@@ -26,58 +25,47 @@ export default function Footer() {
             Resources
           </h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-white">Blog</a></li>
-            <li><a href="#" className="hover:text-white">White Papers</a></li>
-            <li><a href="#" className="hover:text-white">Webinars</a></li>
+            <li><a href="/skip-uses/rubbish-collection" className="hover:text-white">Rubbish Collection</a></li>
+            <li><a href="/skip-uses/green-waste" className="hover:text-white">Green Waste</a></li>
+            <li><a href="/skip-uses/household-waste" className="hover:text-white">Domestic/Household Waste</a></li>
+                        <li><a href="/skip-uses/commercial-renovation" className="hover:text-white">Builder/Renovation Waste</a></li>
+                                    <li><a href="/skip-uses/waste-type" className="hover:text-white">Waste Types</a></li>
           </ul>
         </div>
 
-        {/* Subscribe */}
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-4">
-            Subscribe
+            Bin Bookings
           </h3>
-          <p className="mb-4 text-sm">
-            Stay informed with our monthly newsletter and scale your climate impact!
-          </p>
-          <form className="space-y-4">
-            <input
-              type="email"
-              placeholder="Your Email:"
-              className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-green-400 py-1"
-            />
-            <label className="flex items-start gap-2 text-sm">
-              <input type="checkbox" className="mt-1" />
-              I agree to receive communications from Cloverly.
-            </label>
-            <button
-              type="submit"
-              className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md font-medium transition"
-            >
-              Sign up
-            </button>
-          </form>
+          <ul className="space-y-2">
+            <li><a href="/book-a-bin" className="hover:text-white">Book Your Bins</a></li>
+           
+          </ul>
         </div>
+
+<div>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-4">
+            Skip Bin Sizes
+          </h3>
+          <ul className="space-y-2">
+            <li><a href="/skip-sizes" className="hover:text-white">Bin Sizes</a></li>
+           
+          </ul>
+        </div>
+
       </div>
 
       {/* Bottom Section */}
       <div className="max-w-screen-xl mx-auto mt-12 px-6 flex flex-col md:flex-row items-center justify-between border-t border-gray-700 pt-6">
-        {/* Logo + Copyright */}
-        <div className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Cloverly" className="h-6" />
-          <span className="text-sm text-gray-400">
-            © 2024 Cloverly. All rights reserved.
-          </span>
-        </div>
+     
+        
+          
+          <div className="text-sm text-gray-400 text-center">© 2025 Express Bin Services PTY LTD Australia.</div>
+          <br />
+          <div className="text-center text-gray-400 text-sm">All rights reserved.</div>
+        
 
-        {/* Links */}
-        <div className="flex gap-4 text-sm text-gray-400 mt-4 md:mt-0">
-          <a href="#" className="hover:text-white">Terms of Service</a>
-          <span>·</span>
-          <a href="#" className="hover:text-white">Privacy Policy</a>
-        </div>
-
-       
+      
       </div>
     </footer>
   );

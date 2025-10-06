@@ -4,12 +4,12 @@ const services = [
   {
     title: '🏡 Residential Skip Bin Hire',
     desc: 'Perfect for spring cleaning, moving house, or getting rid of garden waste. We deliver bins right to your driveway so you can clear out clutter with ease.',
-    img: '/s1.jpg',
+    img: '/tanish4.jpg',
   },
   {
     title: '👷‍♂️ Construction & Renovation Bins',
     desc: 'Heavy-duty bins built for concrete, bricks, timber, and rubble. Keep your job site clean and safe with same-day delivery and flexible pick-up schedules.',
-    img: '/s2.jpg',
+    img: '/tanish3.jpg',
   },
   {
     title: '🏢 Commercial Skip Bin Hire',

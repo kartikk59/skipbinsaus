@@ -21,7 +21,7 @@ export default function AboutPage() {
           </p>
 
           <div className="mt-8">
-            <a href="#book" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-green-500  text-slate-900 font-bold shadow hover:bg-amber-500">
+            <a href="/book-a-bin" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-green-500  text-slate-900 font-bold shadow">
               HIRE A SKIP
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                 <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clipRule="evenodd" />

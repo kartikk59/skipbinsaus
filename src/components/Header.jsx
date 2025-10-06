@@ -19,11 +19,13 @@ function Header({ showHero = true }) {
   return (
     <header>
       {/* Promotional Banner */}
-      <div className="bg-green-500 py-2 border rounded-[calc(theme(borderRadius.lg)+1px)] m-3 border-white">
+      <div className="bg-green-400 py-2 border rounded-[calc(theme(borderRadius.lg)+1px)] m-3 border-white">
         <div className="max-w-screen-xl mx-auto text-center">
+          <a href="tel:+61 405838119">
           <p className="text-lg font-semibold text-black">For Bookings Call: +61 405 838 119
-
-          </p>
+             </p>
+</a>
+         
         </div>
       </div>
       
@@ -31,7 +33,7 @@ function Header({ showHero = true }) {
         <div className="max-w-screen-xl px-5 flex items-center gap-4 flex-nowrap relative">
           <a href="/" className="inline-flex items-center gap-2 font-extrabold text-slate-900">
        
-            <img src="logo.png" alt="logo" className="ml-5 h-12 w-50" />
+            <img src="/logo.png" alt="logo" className="ml-5 h-12 w-50" />
           </a>
 
           <ul className="hidden md:flex items-center justify-center gap-8 md:gap-10 font-semibold text-slate-900 flex-1 whitespace-nowrap">
@@ -67,8 +69,7 @@ function Header({ showHero = true }) {
                     { href: '/skip-uses/rubbish-collection', label: 'Rubbish Collection' },
                     { href: '/skip-uses/green-waste', label: 'Green Waste' },
                     { href: '/skip-uses/household-waste', label: 'Domestic/Household Waste' },
-                    { href: '/skip-uses/commercial-rennovation', label: 'Builders/Renovation Waste' },
-                    { href: '/skip-uses/waste-type', label: 'View All Waste Types' },
+                    { href: '/skip-uses/commercial-rennovation', label: 'Builders/Renovation Waste' },,
                   ].map((l) => (
                     <a key={l.href} href={l.href} className="block rounded-lg px-4 py-3 hover:bg-slate-50">
                       {l.label}
@@ -129,7 +130,6 @@ function Header({ showHero = true }) {
                   { href: '/skip-uses/green-waste', label: 'Green Waste' },
                   { href: '/skip-uses/household-waste', label: 'Domestic/Household Waste' },
                   { href: '/skip-uses/commercial-rennovation', label: 'Builders/Renovation Waste' },
-                  { href: '/skip-uses/waste-type', label: 'View All Waste Types' },
                 ].map((sublink) => (
                   <li key={sublink.href} className="py-2">
                     <a href={sublink.href} className="hover:text-green-700" onClick={() => setOpen(false)}>

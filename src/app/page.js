@@ -5,7 +5,8 @@ import Benefits from "../components/Benefits";
 import Testimonials from "../components/Testimonials";
 import TrustedBrands from "../components/TrustedBrands";
 import Footer from "../components/footer"
-import Locations from "../components/Locations";
+import Location from "../components/Location";
+
 
 export default function Home() {
   return(
@@ -14,9 +15,10 @@ export default function Home() {
     <BookForm />
     <Benefits />
     <Services />
-  <Locations />
   
     <Testimonials />
+    <Location />
+
     <Footer />
     </>
   );
