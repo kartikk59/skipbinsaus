@@ -19,17 +19,19 @@ function Header({ showHero = true }) {
   return (
     <header>
       {/* Promotional Banner */}
-      <div className="bg-[#a1ff75] py-2 border rounded-[calc(theme(borderRadius.lg)+1px)] m-3 border-white">
+      <div className="bg-green-500 py-2 border rounded-[calc(theme(borderRadius.lg)+1px)] m-3 border-white">
         <div className="max-w-screen-xl mx-auto text-center">
-          <p className="text-lg font-semibold text-black">For Bookings Call: 55655444</p>
+          <p className="text-lg font-semibold text-black">For Bookings Call: +61 405 838 119
+
+          </p>
         </div>
       </div>
       
       <nav className="sticky top-0 z-40 backdrop-blur border-b border-slate-200" style={{backgroundColor: '#e1e4d9'}}>
-        <div className="max-w-screen-xl mx-auto px-5 py-3 flex items-center gap-4 flex-nowrap relative">
+        <div className="max-w-screen-xl px-5 flex items-center gap-4 flex-nowrap relative">
           <a href="/" className="inline-flex items-center gap-2 font-extrabold text-slate-900">
-            <span className="grid place-items-center w-8 h-8 rounded-md bg-gradient-to-br from-green-600 to-green-700 text-white font-black">X</span>
-            Xpress Skips
+       
+            <img src="logo.png" alt="logo" className="h-12 w-50" />
           </a>
 
           <ul className="hidden md:flex items-center justify-center gap-8 md:gap-10 font-semibold text-slate-900 flex-1 whitespace-nowrap">
@@ -51,7 +53,7 @@ function Header({ showHero = true }) {
               >
                 Skip Uses
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-                  <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.08 1.04l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                  <path fillRule="evenodd"   d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.08 1.04l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z" clipRule="evenodd" />
                 </svg>
               </button>
 
@@ -86,7 +88,7 @@ function Header({ showHero = true }) {
               aria-label="Toggle navigation"
               aria-expanded={open}
               aria-controls="primary-mobile-menu"
-              className="md:hidden inline-flex flex-col justify-between w-9 h-7"
+              className="md:hidden inline-flex flex-col justify-between w-7 h-6"
               onClick={() => setOpen(!open)}
             >
               <span className="h-0.5 w-full bg-slate-900 rounded"></span>
@@ -173,7 +175,7 @@ function Header({ showHero = true }) {
           <div className="max-w-screen-xl mx-auto px-5 min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-72px)] flex items-center">
             <div className="py-16 md:py-20">
               <h1 className="text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)] text-4xl md:text-6xl font-extrabold leading-tight">
-                Xpress Bins
+                Express Skip Bins
                 <span className="block">Your Quick & Easy</span>
                 <span className="block">Waste Solution</span>
               </h1>

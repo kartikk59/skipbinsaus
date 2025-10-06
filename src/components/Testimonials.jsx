@@ -2,10 +2,10 @@ import React from 'react'
 
 const reviews = [
   {
-    name: 'Jing Liu',
+    name: 'Alex Johnson',
     source: 'Google Review',
     text:
-      'Again, Xpress Skips never let me down. The team is professional and deliveries are always on time. Will definitely use them again.',
+      'Express Skip Bins Melbourne, never let me down. The team is professional and deliveries are always on time. Will definitely use them again.',
     rating: 5,
   },
   {
