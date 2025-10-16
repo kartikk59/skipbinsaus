@@ -12,19 +12,19 @@ export default function AboutPage() {
         <div className="absolute inset-0 -z-10 bg-black/50" />
 
         <div className="max-w-screen-xl mx-auto px-5 py-20 md:py-28">
-          <h1 className="text-white text-5xl md:text-6xl font-extrabold">About Express Skip Bins</h1>
+          <h1 className="text-white text-4xl md:text-6xl font-extrabold">About Express Skip Bins</h1>
 
-          <h2 className="mt-6 text-white text-3xl md:text-4xl font-extrabold"></h2>
+          
 
-          <p className="mt-6 max-w-3xl text-white/90 text-lg leading-relaxed">
+          <p className="mt-6 max-w-2xl text-white/90 text-lg leading-relaxed">
             At <span className='text-green-500'>Express Skip Bins</span> we're proud to be one of Melbourne's trusted skip bin hire services, providing reliable, affordable, and environmentally responsible waste management solutions for homes, construction sites, and businesses. We specialize in offering a wide range of skip bins to suit projects of any size, from small clean-ups to large-scale renovations.
           </p>
 
-           <p className="mt-6 max-w-3xl text-white/90 text-lg leading-relaxed">
+           <p className="mt-6 max-w-2xl text-white/90 text-lg leading-relaxed">
             We believe that our relationship with customers is the foundation of our success, and that every great service begins with a great customer experience. That's why we prioritize clear communication, transparency, and friendly support at every step because when our customers are happy so we are.
           </p>
 
-          <p className="mt-6 max-w-3xl text-white/90 text-lg leading-relaxed">
+          <p className="mt-6 max-w-2xl text-white/90 text-lg leading-relaxed">
             Email: admin@expressskipbins.com
             Address: 131 Greens Road Dandenong South, Victoria 3175
           </p>
