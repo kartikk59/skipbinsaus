@@ -64,7 +64,7 @@ export default function SkipSizesPage() {
  <main className="bg-green-50 min-h-screen">
       <div className="max-w-screen-xl mx-auto px-5 py-16">
         <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 text-center">
-          Skip Bin Sizes — Which One Do You Need?
+          Skip Bin Sizes, Which One Do You Need?
         </h1>
 
         <p className="text-slate-700 mb-6 text-center">
@@ -74,7 +74,7 @@ export default function SkipSizesPage() {
 
         <div className="mb-8 rounded-lg overflow-hidden border border-slate-200 bg-white shadow-sm">
           <img
-            src="/skip-bin-size-chart-800.jpg"
+            src="/chart.jpg"
             alt="Skip bin size chart"
             className="w-full h-auto object-cover"
           />
