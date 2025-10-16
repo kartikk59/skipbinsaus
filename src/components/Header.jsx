@@ -162,14 +162,16 @@ function Header({ showHero = true }) {
 
       {showHero && (
         <section id="home" className="relative isolate overflow-hidden border-t border-slate-100 m-3 rounded-2xl">
-          <video
+          <img src='/tanish3.jpg' className='absolute inset-0 -z-10 h-full w-full object-cover rounded-2xl'>
+          </img>
+          {/* <video
             className="absolute inset-0 -z-10 h-full w-full object-cover rounded-2xl"
             src="/hero_video.mp4"
             autoPlay
             muted
             loop
             playsInline
-          />
+          /> */}
           <div className="absolute inset-0 -z-10 bg-black/35 rounded-2xl" />
 
           <div className="max-w-screen-xl mx-auto px-5 min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-72px)] flex items-center">
