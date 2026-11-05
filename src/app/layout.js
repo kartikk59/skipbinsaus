@@ -15,8 +15,8 @@ export const metadata = {
 
   title: "Express Skip Bins Melbourne",
   description: "Skip Bin Hire | Waste Removal | Rubbish Removal | Hire a Skip | Skip Bin Rental",
-   verification: {
-    google: '<meta name="google-site-verification" content="XDydyzO3aGOj7f4IiG4pKushjrYKQsZYNsdh9nixsck" />',
+  verification: {
+    google: 'XDydyzO3aGOj7f4IiG4pKushjrYKQsZYNsdh9nixsck',
   },
 };
 
