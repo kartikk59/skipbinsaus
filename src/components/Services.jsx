@@ -4,12 +4,12 @@ const services = [
   {
     title: '🏡 Residential Skip Bin Hire',
     desc: 'Perfect for spring cleaning, moving house, or getting rid of garden waste. We deliver bins right to your driveway so you can clear out clutter with ease.',
-    img: '/s1.jpg',
+    img: '/tanish4.jpg',
   },
   {
     title: '👷‍♂️ Construction & Renovation Bins',
     desc: 'Heavy-duty bins built for concrete, bricks, timber, and rubble. Keep your job site clean and safe with same-day delivery and flexible pick-up schedules.',
-    img: '/s2.jpg',
+    img: '/tanish3.jpg',
   },
   {
     title: '🏢 Commercial Skip Bin Hire',
@@ -41,15 +41,7 @@ function ServiceCard({ title, desc, img }) {
         <h3 className="text-xl md:text-2xl font-extrabold text-green-800">{title}</h3>
         <p className="mt-3 text-slate-700 flex-grow">{desc}</p>
         <div className="mt-6">
-          <a 
-            href="#book" 
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition"
-          >
-            Read More
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-              <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </a>
+         
         </div>
       </div>
     </article>

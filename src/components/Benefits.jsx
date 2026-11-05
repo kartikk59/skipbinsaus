@@ -2,7 +2,7 @@ import React from 'react'
 
 const benefits = [
   {
-    img: '/bins1.jpg',  
+    img: '/tanish2.jpg',  
     title: '🚛 Same-Day Delivery & Pick-Up',
     desc: 'Don’t wait around! We offer fast, same-day delivery and flexible pick-up times so your project runs on schedule.'
   },

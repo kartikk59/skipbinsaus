@@ -7,12 +7,6 @@ export default function BookForm(){
     phone: '',
     email: '',
     suburb: '',
-    address: '',
-    postcode: '',
-    size: '',
-    hireFrom: '',
-    hireTo: '',
-    waste: [],
     notes: '',
   })
 
