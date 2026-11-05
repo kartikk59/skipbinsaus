@@ -33,11 +33,13 @@ function Header({ showHero = true }) {
         <div className="max-w-screen-xl px-5 flex items-center gap-4 flex-nowrap relative">
           <a href="/" className="inline-flex items-center gap-2 font-extrabold text-slate-900">
        
-<<<<<<< HEAD
-            <img src="logo.png" alt="logo" className="ml-5 h-15 w-48" />
-=======
-            <img src="/logo.png" alt="logo" className="ml-5 h-12 w-50" />
->>>>>>> origin/master
+
+           <img
+  src="/logo.png"
+  alt="logo"
+  className="ml-5 h-12 w-50"
+/>
+
           </a>
 
           <ul className="hidden md:flex items-center justify-center gap-8 md:gap-10 font-semibold text-slate-900 flex-1 whitespace-nowrap">
