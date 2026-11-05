@@ -5,7 +5,7 @@ const reviews = [
     name: 'Jing Liu',
     source: 'Google Review',
     text:
-      'Again, Xpress Skips never let me down. The team is professional and deliveries are always on time. Will definitely use them again.',
+      'Again, Express Skip Bins never let me down. The team is professional and deliveries are always on time. Will definitely use them again.',
     rating: 5,
   },
   {
