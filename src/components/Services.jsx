@@ -77,7 +77,7 @@ export default function Services() {
 
       <div className="relative max-w-screen-xl mx-auto px-5 py-20">
         <h2 className="text-4xl md:text-5xl font-extrabold text-black text-center">Services</h2>
-        <p className="mt-4 text-lg text-green-700 max-w-2xl text-center">
+        <p className="mt-4 text-lg text-green-700 max-w-2xl text-center mx-auto">
           Affordable, fast and reliable skip bin solutions for every project.
         </p>
 

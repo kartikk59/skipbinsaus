@@ -8,7 +8,7 @@ export default function AboutPage() {
       <Header showHero={false} />
 
       <section className="relative isolate overflow-hidden">
-        <img src="/about_hero.jpg" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
+        <img src="/about_us.jpg" alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
         <div className="absolute inset-0 -z-10 bg-black/50" />
 
         <div className="max-w-screen-xl mx-auto px-5 py-20 md:py-28">
@@ -17,18 +17,11 @@ export default function AboutPage() {
           <h2 className="mt-6 text-white text-3xl md:text-4xl font-extrabold">For The Love Of Our Community</h2>
 
           <p className="mt-6 max-w-3xl text-white/90 text-lg leading-relaxed">
-            As advocates for a more sustainable world, we have been busy in our local communities educating young kids about the importance of understanding better waste management practices such as recycling. We are committed to developing a program by 2025 dedicated to educating a broad range of students from pre-kindergarten right through to year 6.
+            "We provide reliable and affordable skip bin hire solutions across Australia, helping homes and businesses manage waste efficiently. Our team is committed to eco-friendly disposal and excellent customer service. From small clean-ups to large projects, we’ve got the right bin for you. Choose us for hassle-free, timely, and professional waste management.
           </p>
 
-          <div className="mt-8 inline-flex items-start gap-3">
-            <img src="/aussie_flag.png" alt="Aussie" className="w-10 h-10" />
-            <div className="text-white font-extrabold">
-              Proudly owned and loved by an Aussie Family
-            </div>
-          </div>
-
           <div className="mt-8">
-            <a href="#book" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-amber-400 text-slate-900 font-bold shadow hover:bg-amber-500">
+            <a href="#book" className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-green-500  text-slate-900 font-bold shadow hover:bg-amber-500">
               HIRE A SKIP
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                 <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -38,36 +31,10 @@ export default function AboutPage() {
         </div>
       </section>
 
+   
       <section className="bg-white">
         <div className="max-w-screen-xl mx-auto px-5 py-16">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <img src="/about/owner.jpg" alt="Owner" className="rounded-2xl shadow-lg" />
-            <div className="rounded-2xl bg-green-700 text-white p-8 md:p-10 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.35)]">
-              <h3 className="text-3xl md:text-4xl font-extrabold">At Xpress Skips our passion is the key to our success</h3>
-              <p className="mt-4 leading-relaxed text-white/95">
-                We pride ourselves on exceeding expectations and providing exceptional service. Our small business friendly approach and the varied range of waste solutions we provide has made us one of the leaders in the industry.
-              </p>
-              <p className="mt-4 leading-relaxed text-white/95">
-                A healthy environment is vital for all of us. We aim to protect our environment for future generations by utilising the latest in technology and the most environmentally friendly collection and sorting methods to minimise the amount of waste that gets diverted to landfill.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-14 grid md:grid-cols-2 gap-8 items-center">
-            <img src="/about/truck.jpg" alt="Fleet" className="rounded-2xl shadow-lg order-1 md:order-none" />
-            <div className="rounded-2xl bg-green-700 text-white p-8 md:p-10 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.35)]">
-              <h3 className="text-3xl md:text-4xl font-extrabold">45 Vehicles In Our Fleet Across Sydney</h3>
-              <p className="mt-4 leading-relaxed text-white/95">
-                As part of our commitment in servicing our customers waste management needs, we have invested in a state of the art fleet that expands across the Sydney region.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white">
-        <div className="max-w-screen-xl mx-auto px-5 py-16">
-          <h2 className="text-center text-4xl md:text-5xl font-extrabold">Our Values</h2>
+          <h2 className="text-center text-4xl md:text-5xl font-extrabold text-black">Our Values</h2>
           <p className="mt-6 text-center max-w-5xl mx-auto text-slate-700 leading-relaxed">
             Xpress Industries began operation years ago and has grown to encompass recycling, commercial waste management, and skip bin services that advance the cause of enhancing the environment, leading the charge for a sustainable future, and contributing to the circular economy.
           </p>
